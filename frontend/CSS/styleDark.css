@@ -12,7 +12,32 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     color: #ffff;
+}
+
+/*======================================
+=BOTÃO PARA ALTERAR O TEMA DA PÁGINA =
+======================================*/
+.theme-toggle-btn{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 20px;
+    right: 80px;
+    margin-top: 0;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 20px;
+    background-color: rgba(146,144,144,0.2);
+    border: 1px solid rgba(160, 12, 12, 0.4);
+    transition: 0.3s;
+    z-index: 1000;
+}
+
+.theme-toggle-btn:hover{
+    transform: scale(1,1);
+    background: rgba(255,255,255,0.3);
 }
 
 .login-container{
