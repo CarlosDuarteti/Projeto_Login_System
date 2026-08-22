@@ -29,8 +29,8 @@ body{
     padding: 10px;
     border-radius: 50%;
     font-size: 20px;
-    background-color: rgba(146,144,144,0.2);
-    border: 1px solid rgba(160, 12, 12, 0.4);
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255,255,255,0.4);
     transition: 0.3s;
     z-index: 1000;
 }
@@ -38,6 +38,18 @@ body{
 .theme-toggle-btn:hover{
     transform: scale(1,1);
     background: rgba(255,255,255,0.3);
+}
+
+/*======================================
+=THEMA CLARO =
+======================================*/
+.body.light {
+    background: linear-gradient(135deg,#e0f2fe,#bae6fd,#7dd3fc);
+}
+
+.body.light .login-container {
+background: #ffffff;
+box-shadow: 0 20px 40px rgba(0, 114, 255, 0.15);
 }
 
 .login-container{
@@ -122,4 +134,60 @@ button:hover{
 
 .footer a:hover{
     color: #66d9ff;
+}
+
+/*======================================
+=THEMA CLARO =
+======================================*/
+body.light {
+    background: linear-gradient(135deg,#e0f2fe,#bae6fd,#7dd3fc);
+}
+
+body.light .login-container {
+background: #ffffff;
+box-shadow: 0 20px 40px rgba(0, 114, 255, 0.15);
+}
+
+/*======================================
+=ALTERANDO OS TEXTOS =
+======================================*/
+body.light .login-container h1 {
+color: #0f172a;
+}
+
+body.light .login-container p {
+color: #475569;
+}
+
+/*======================================
+=ALTERANDO OS CAMPOS =
+======================================*/
+body.light .input-group label {
+color: #334155;
+}
+
+body.light .input-group input {
+background: #f1f5f9;
+color: #0f172a;
+border: 1px solid #cbd5e1;
+}
+
+body.light .input-group input::placeholder {
+color: #94a3b8;
+}
+
+/*======================================
+=AJUSTANDO BOTAO DO TEMA CLARO =
+======================================*/
+body.light .theme-toggle-btn {
+background-color: rgba(15, 23, 42, 0.1);
+border: 1px solid rgba(15, 23, 42, 0.2);
+color: #0f172a;
+}
+
+body.light .footer {
+color: #64748b;
+}
+body.light .footer a {
+color: #0072ff;
 }
