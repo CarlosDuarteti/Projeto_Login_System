@@ -17,8 +17,8 @@ body{
 }
 
 /*======================================
-=BOTÃO PARA ALTERAR O TEMA DA PÁGINA =
-======================================*/
+===BOTÃO PARA ALTERAR O TEMA DA PÁGINA =
+=======================================*/
 .theme-toggle-btn{
     position: absolute;
     width: 50px;
@@ -213,11 +213,11 @@ background: #1e1e1e;
 border-radius: 15px;
 text-align: center;
 box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
-animation: aparecerModal 0.3s esse;
+animation: aparecerModal 0.3s ease;
 }
 
 @keyframes  aparecerModal{
-  form{
+  from{
     opacity: 0;
     transform: scale(0.8);
   }
@@ -250,4 +250,27 @@ animation: aparecerModal 0.3s esse;
   color: #020617;
   cursor: pointer;
   font-weight: bold;
+}
+
+/*====================================================
+= Alterando o modal para mudar a cor para tema claro =
+====================================================*/
+
+body.light .alert-box {
+    background: #ffffff;
+    color: #0f172a;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.2);
+}
+
+body.light .alert-box h3 {
+    color: #0f172a;
+}
+
+body.light .alert-box p {
+    color: #475569;
+}
+
+body.light .alert-box button {
+    background: linear-gradient(135deg, #00c6ff, #0072ff);
+    color: #ffffff;
 }

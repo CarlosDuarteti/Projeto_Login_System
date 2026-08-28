@@ -13,7 +13,7 @@ function mostrarAlerta(
 
     alertMessage.textContent = mensagem;
 
-    const alertCard = customAlert.querySelector("alert-box");
+    const alertCard = customAlert.querySelector(".alert-box");
 
     alertCard.classList.remove(
         "success",
