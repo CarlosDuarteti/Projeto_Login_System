@@ -4,5 +4,11 @@
     "nome": "Joao",
     "email": "joao@email.com",
     "senha": "$2b$10$.FMijiXXZyExxXPVxQQQwedLfHUafCbuEqwp55eWDPM29esJclrYi"
+  },
+  {
+    "id": 1787963158507,
+    "nome": "carlos",
+    "email": "carlos@email.com",
+    "senha": "$2b$10$Co2m39rAUaWsijznaZ715uqMoj9PqOzzQnRj1FxM5uWJ02uWTNV.."
   }
 ]
