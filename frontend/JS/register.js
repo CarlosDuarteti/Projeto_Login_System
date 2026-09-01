@@ -32,6 +32,13 @@ form.addEventListener(
             );
             return;
         }
+
+        if (senha.length < 6) {
+            alert(
+                "A senha deve possuir pelo menos 6 caracteres."
+            );
+            return;
+        }
         // =================================
         // ENVIO PARA O BACKEND
         // =================================
@@ -60,7 +67,12 @@ form.addEventListener(
         // =================================
         // MOSTRA A MENSAGEM
         // =================================
-        alert(json.message);
+        //alert(json.message);
+        if (resposta.ok) {
+            alert("Cadastro realizado com sucesso!");
+        } else {
+            alert(json.message);
+        }
         // =================================
         // VERIFICA SE DEU CERTO
         // =================================
