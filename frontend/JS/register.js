@@ -26,6 +26,7 @@ form.addEventListener(
         // =================================
         // VALIDAÇÃO DAS SENHAS
         // =================================
+        
         if (senha !== confirmar) {
             alert(
                 "As senhas não coincidem!"
@@ -33,12 +34,7 @@ form.addEventListener(
             return;
         }
 
-        if (senha.length < 6) {
-            alert(
-                "A senha deve possuir pelo menos 6 caracteres."
-            );
-            return;
-        }
+
         // =================================
         // ENVIO PARA O BACKEND
         // =================================

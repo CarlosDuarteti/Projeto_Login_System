@@ -274,3 +274,11 @@ body.light .alert-box button {
     background: linear-gradient(135deg, #00c6ff, #0072ff);
     color: #ffffff;
 }
+
+/* ======================================
+   FONTE DO TEMA CLARO
+====================================== */
+
+body.light * {
+    font-family: "Poppins", sans-serif;
+}

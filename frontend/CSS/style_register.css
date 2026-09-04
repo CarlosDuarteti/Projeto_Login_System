@@ -193,3 +193,11 @@ color: #64748b;
 body.light .footer a {
 color: #0072ff;
 }
+
+/* ======================================
+   FONTE DO TEMA CLARO
+====================================== */
+
+body.light * {
+    font-family: "Poppins", sans-serif;
+}

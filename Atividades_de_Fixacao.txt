@@ -32,8 +32,14 @@ Através do req.body.
 Serve para realizar a criptografia da senha.
 
 12. O que significa resposta.ok?
+Verifica se a comunicação com o HTTP foi bem sucedida.
 
 13. Para que serve resposta.json()?
+Pega a resposta do servidor e transforma em um objeto JavaScript.
+
 14. O que acontece quando o cadastro é realizado com sucesso?
+Aparece uma tela do modal informando que o usuário foi criado com sucesso.
+
 15. Qual é a diferença entre a validação feita no register.js e a validação feita no
 auth.js?
+O register.js faz uma validação antes de enviar os dados para o servidor, o auth.js faz uma validação no servidor.
